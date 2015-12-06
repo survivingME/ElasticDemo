@@ -91,13 +91,13 @@ class ViewController: UIViewController {
         r2ControlPointView.frame = CGRect(x : 0.0,y : 0.0,width : 3.0,height : 3.0)
         r3ControlPointView.frame = CGRect(x : 0.0,y : 0.0,width : 3.0,height : 3.0)
         
-        /*l3ControlPointView.backgroundColor = .redColor()
+        l3ControlPointView.backgroundColor = .redColor()
         l2ControlPointView.backgroundColor = .redColor()
         l1ControlPointView.backgroundColor = .redColor()
         cControlPointView.backgroundColor = .redColor()
         r1ControlPointView.backgroundColor = .redColor()
         r2ControlPointView.backgroundColor = .redColor()
-        r3ControlPointView.backgroundColor = .redColor()*/
+        r3ControlPointView.backgroundColor = .redColor()
         
         view.addSubview(l3ControlPointView)
         view.addSubview(l2ControlPointView)
